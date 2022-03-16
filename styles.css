@@ -1,0 +1,35 @@
+p, h1, h2, h3, a{
+    font-family: 'Nunito', sans-serif;
+}
+
+p{
+    color: #6d7b93;
+}
+
+.nav-link{
+    color: grey;
+    font-size: x-large;
+}
+
+.main-title{
+    font-size: 5rem;
+    color: #1f3e72;
+}
+
+.sub-title{
+    font-size: 3rem;
+    color: #1f3e72;
+}
+
+.logos-yellow{
+    color: yellow;
+}
+
+.centerBlock {
+    display: table;
+    margin: auto;
+}
+
+.logos-blue{
+    color: #2e4ecc;
+}

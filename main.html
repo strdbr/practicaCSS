@@ -4,85 +4,160 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94rHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap');
+    </style>
     <script src="https://kit.fontawesome.com/745cd952d5.js" crossorigin="anonymous"></script>
     <title>Vacunate</title>
 </head>
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <section id="navbar">
-        <div>
-            <img src="" alt="logo">
-        </div>
-        <div>
-            <ul>
-                <li>Database</li>
-                <li>Education</li>
-                <li>News</li>
-                <li>Regulation</li>
-                <li><button>Hoax Buster</button></li>
-            </ul>
-        </div>
+        <nav class="navbar sticky-top navbar-light bg-light p-5">
+            <div>
+                <span class="navbar-brand mx-5 h1 text-primary fw-bold fs-1">Vaccination</span>
+            </div>
+            <div>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item"><a class="nav-link active fw-bold mx-4 px-4 pt-4 h1" aria-current="page" href="#">Database</a></li>
+                    <li class="nav-item"><a class="nav-link active fw-bold mx-4 px-4 pt-4 h1" aria-current="page" href="#">Education</a></li>
+                    <li class="nav-item"><a class="nav-link active fw-bold mx-4 px-4 pt-4 h1" aria-current="page" href="#">News</a></li>
+                    <li class="nav-item"><a class="nav-link active fw-bold mx-4 px-4 pt-4 h1" aria-current="page" href="#">Regulation</a></li>
+                    <li class="nav-item"><button type="button" class="btn btn-primary btn-lg m-2 py-3 px-5">Hoax Buster</button></li>
+                </ul>
+            </div>
+        </nav>
     </section>
     <section id="mainSection">
-        <h1>Fight Virus With Vaccines</h1>
-        <h3>Let's stop this pandemic by killing the virus with a vaccine, don't let yourself and your family get infected</h3>
-        <p><i class="fa-solid fa-shield-blank"></i>Best protection</p>
-        <p><i class="fa-solid fa-star"></i>Selected Vaccines</p>
-        <!-- <img src="img/front-view-female-nurse-white-medical-suit-with-red-mask-injection-her-hands-blue.jpg"> -->
+        <div 
+            class="
+                container 
+                d-flex
+                flex-column flex-lg-row
+                justify-content-center-
+            "
+        >
+            <div class="row row-cols-2 align-items-start">
+                <div class="col-6 mt-5 pt-5">
+                    <h1 class="main-title fw-bolder">Fight Virus<br>With Vaccines</h1>
+                    <p class="py-2 fw-bold fs-4">
+                        Let's stop this pandemic by killing the virus
+                        <br>with a vaccine, don't let yourself and your
+                        <br>family get infected
+                    </p>
+                    <i class="fa-solid fa-shield-blank m-3" style="color: #ffd012;"></i><span style="color: #1f3e72; font-family: 'Nunito', sans-serif" class="fw-bold">Best protection</span>
+                    <i class="fa-solid fa-star m-3" style="color: #ffd012;"></i><span style="color: #1f3e72; font-family: 'Nunito', sans-serif" class="fw-bold">Selected Vaccines</span>
+                </div>
+                <div class="col-6 justify-content-end">
+                    <img src="img/front-view-female-nurse-white-medical-suit-with-red-mask-injection-her-hands-blue.png" class="img-fluid p-5 float-end">
+                </div>
+            </div>
+        </div>
     </section>
-    <!-- <section id="logos">
-        <img src="img/AstraZeneca.svg">
-        <img src="img/Sinovac_logo.svg">
-        <img src="img/Pfizer_(2021).svg">
-        <img src="img/Moderna_logo.svg">
-    </section> -->
+        <div class="container py-5">
+            <div class="row align-items-start py-5">
+                <div class="col mx-5">
+                    <img src="img/AstraZeneca.svg" class="img-fluid" style="height: 200px; width: 783px;">
+                </div>
+                <div class="col mx-5">
+                    <img src="img/Sinovac_logo.svg" class="img-fluid" style="height: 200px; width: 783px;">
+                </div>
+                <div class="col mx-5">
+                    <img src="img/Pfizer_(2021).svg" class="img-fluid pt-5" style="height: 100%; width: 783px;">
+                </div>
+                <div class="col mx-5">
+                    <img src="img/Moderna_logo.svg" class="img-fluid" style="height: 200px; width: 783px;">
+                </div>
+            </div>
+        </div>
     <section>
-        <h2>Why should I vaccine?</h2>
-        <p>
-            In order to avoid any doubts about getting the COVID-19
-            vaccine, identify the following 4 benefits of COVID-19
-            vaccination
-        </p>
-    </section>
-    <section id="cards">
-        <div>
-            <i class="fa-solid fa-sliders"></i>
-            <h2>Minimize the spread of virus</h2>
-            <p>
-                Vaccine has proven
-                effective to prevent someone
-                from getting infected with
-                Coronavirus
-            </p>
+        <div 
+            class="
+                container 
+                d-flex
+                flex-column flex-lg-row
+                justify-content-start
+            "
+        >
+            <div class="row align-items-start">
+                <div class="col">
+                    <h2 class="sub-title fw-bolder my-4">Why should I vaccine?</h2>
+                    <p class="py-2 fw-bold fs-5 my-5">
+                        In order to avoid any doubts about getting the COVID-19
+                        <br>vaccine, identify the following 4 benefits of COVID-19
+                        <br>vaccination:
+                    </p>
+                </div>
+            </div>
         </div>
-        <div>
-            <i class="fa-solid fa-shield-blank"></i>
-            <h2>Forming antibodies</h2>
-            <p>
-                COVID-19 vaccine proven to
-                help shape antibody
-                response for immune system
-            </p>
-        </div>
-        <div>
-            <i class="fa-solid fa-users"></i>
-            <h2>Protecting people nearby</h2>
-            <p>
-                The benefits of COVID-19
-                vaccination are the vaccine
-                that we get can also help
-                protect people around us
-            </p>
-        </div>
-        <div>
-            <i class="fa-solid fa-chart-line"></i>
-            <h2>Creating group immunity</h2>
-            <p>
-                COVID-19 vaccination is also
-                beneficial for creating group
-                immunity or herd immunity
-            </p>
+        <div 
+            class="
+                container 
+                d-flex
+                flex-column flex-lg-row
+                justify-content-start
+            "
+        >
+            <div class="row align-items-start">
+                <div class="col-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fa-solid fa-sliders logos-blue fs-3 mb-5 m-3"></i>
+                            <h2 class="sub-title fw-bolder fs-4 ms-2">Minimize the<br>spread of viruses</h2>
+                            <p class="py-2 fw-bold ms-2 mb-5">
+                                Vaccine has proven
+                                <br>effective to prevent someone
+                                <br>from getting infected with
+                                <br>Coronavirus
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fa-solid fa-shield-blank logos-blue fs-3 mb-5 m-3"></i>
+                            <h2 class="sub-title fw-bolder fs-4 ms-2">Forming<br>antibodies</h2>
+                            <p class="py-2 fw-bold ms-2 mb-5">
+                                COVID-19 vaccine proven to
+                                <br>help shape antibody
+                                <br>response for immune system
+                            </p>
+                            <br>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fa-solid fa-users logos-blue fs-3 mb-5 m-3"></i>
+                            <h2 class="sub-title fw-bolder fs-4 ms-2">Protecting people nearby</h2>
+                            <p class="py-2 fw-bold ms-2 mb-5">
+                                The benefits of COVID-19
+                                vaccination are the vaccine
+                                that we get can also help
+                                protect people around us
+                            </p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fa-solid fa-chart-line logos-blue fs-3 mb-5 m-3"></i>
+                            <h2 class="sub-title fw-bolder fs-4 ms-2">Creating group immunity</h2>
+                            <p class="py-2 fw-bold ms-2 mb-5">
+                                COVID-19 vaccination is also
+                                beneficial for creating group
+                                immunity or herd immunity
+                            </p>
+                            <br>
+                        </div>
+                      </div>
+                </div>
+            </div>
         </div>
     </section>
     <section>
